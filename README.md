@@ -8,14 +8,14 @@ The project is structured into several directories to organize the dataset, Jupy
 
 QuantStock_Project/
 │
-├── data/                      # Contains the S&P 500 dataset and calculated metrics
-│   └── sp500_data.csv
+├── data/                     
+│   ├── sp500_data.csv         # CSV file with S&P 500 stock data
 │   └── calculated_metrics.csv  # Calculated metrics saved from the Jupyter notebook
 │
 ├── notebooks/
 │   └── QuantStock_Analysis.ipynb  # Jupyter notebook for data analysis
 │
-├── reports/                   # Folder where performance reports are saved
+├── reports/                  
 │   └── AAPL_performance_report.pdf
 │
 ├── scripts/
@@ -23,6 +23,7 @@ QuantStock_Project/
 │
 ├── README.md                  # Project documentation
 └── requirements.txt           # Dependencies for the project
+
 
 ## Features
 - Daily Stock Return Calculations: Automatically computes daily percentage changes in stock prices.
@@ -43,17 +44,17 @@ Before you can run this project, ensure that you have the following installed:
 2. Navigate to the project directory:
 
 
-cd QuantStock_Project
+`cd QuantStock_Project`
 
 3. Install the required dependencies:
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ## How to Run the Project
 ### Step 1: Data Analysis in Jupyter Notebook
 1. Open the Jupyter Notebook: Navigate to the notebooks/ directory and open the QuantStock_Analysis.ipynb file using Jupyter Notebook.
 
-jupyter notebook notebooks/QuantStock_Analysis.ipynb
+`jupyter notebook notebooks/QuantStock_Analysis.ipynb`
 
 2. Run the analysis: Execute all the cells to:
 
@@ -65,7 +66,7 @@ jupyter notebook notebooks/QuantStock_Analysis.ipynb
 
 1. Run the generate_report.py script: This script will read the saved metrics from the CSV file and generate a PDF report for the selected stock.
 
-python scripts/generate_report.py
+`python scripts/generate_report.py`
 
 2. Find the generated report: The PDF report will be saved in the reports/ directory with a filename based on the stock name (e.g., AAPL_performance_report.pdf).
 
@@ -83,5 +84,5 @@ The project requires the following Python libraries, which are listed in the req
 - fpdf
 To install all dependencies, run:
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
