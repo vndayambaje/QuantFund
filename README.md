@@ -24,8 +24,6 @@ QuantStock_Project/
 ├── README.md                  # Project documentation
 └── requirements.txt           # Dependencies for the project
 
-
-
 ## Features
 - Daily Stock Return Calculations: Automatically computes daily percentage changes in stock prices.
 - Benchmark Comparison: Allows for comparing individual stock performance to a market benchmark (S&P 500 index).
