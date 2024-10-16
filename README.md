@@ -6,18 +6,25 @@ The QuantStock Performance Analytics and Benchmarking System is designed to help
 The project is structured into several directories to organize the dataset, Jupyter notebook, scripts, and generated reports.
 
 
+```bash
 QuantStock_Project/
-- data/
-  - sp500_data.csv         # CSV file with S&P 500 stock data
-  - calculated_metrics.csv  # Calculated metrics saved from the Jupyter notebook
-- notebooks/
-  - QuantStock_Analysis.ipynb  # Jupyter notebook for data analysis
-- reports/
-  - AAPL_performance_report.pdf
-- scripts/
-  - generate_report.py     # Python script to generate the performance report
-- README.md                  # Project documentation
-- requirements.txt           # Dependencies for the project
+│
+├── data/                     
+│   ├── all_stocks_5yr.csv         # CSV file with S&P 500 stock data
+│   └── calculated_metrics.csv  # Calculated metrics saved from the Jupyter notebook
+│
+├── notebooks/
+│   └── QuantStock_Analysis.ipynb  # Jupyter notebook for data analysis
+│
+├── reports/                  
+│   └── AAPL_performance_report.pdf
+│
+├── scripts/
+│   └── generate_report.py     # Python script to generate the performance report
+│
+├── README.md                  # Project documentation
+└── requirements.txt           # Dependencies for the project
+```
 
 
 ## Features
